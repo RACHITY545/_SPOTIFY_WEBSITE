@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <title> Spotify page</title>
+    
+    <link rel="icon" href="./img/381fa32a031214f14f0a24bca0f97e6c.png" type="image/x-icon">
+
+<style>
+.smartphone{
+    height:650px;
+    width: 400px;
+    background-color: rgb(8, 8, 8);
+    border-radius: 8%;
+}
+
+.musiclogo{
+    height: 300px;
+    width: 330px;
+    background-image: url("./img/381fa32a031214f14f0a24bca0f97e6c.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+
+}
+.logoholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.aboutsong{
+    color: white;
+    margin-left:30px;
+    line-height: 9px;
+    font-weight: bold;
+    font-size: large;
+    
+}
+
+.songlength{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.blankdiv{
+    background-color: rgb(209, 218, 218);
+    height: 5px;
+    width: 60%;
+    border-radius: 20px;
+
+}
+
+.icons{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.volume{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+
+
+</style>
+
+
+</head>
+<body>
+    <div class="smartphone">
+        <div class="logoholder">
+            <div class="musiclogo">
+
+            </div>
+        </div>
+        <div class="aboutsong">
+            <p>Positions</p>
+            <P>ARIANA GRANDE</P>
+
+        </div>
+        <div class="songlength">
+            <p>01:20</p>
+            <div class="blankdiv">
+            </div>
+            <p>03:40</p>
+
+        </div>
+
+        <div class="icons">
+            <svg xmlns="http://www.w3.org/2000/svg" width="29" height="62" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="82" fill="currentColor" class="bi bi-skip-backward-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.79-2.907L8.5 7.028V5.5a.5.5 0 0 0-.79-.407L5 7.028V5.5a.5.5 0 0 0-1 0v5a.5.5 0 0 0 1 0V8.972l2.71 1.935a.5.5 0 0 0 .79-.407V8.972l2.71 1.935A.5.5 0 0 0 12 10.5v-5a.5.5 0 0 0-.79-.407"/>
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="82" fill="currentColor" class="bi bi-pause-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
+                <path d="M5 6.25a1.25 1.25 0 1 1 2.5 0v3.5a1.25 1.25 0 1 1-2.5 0zm3.5 0a1.25 1.25 0 1 1 2.5 0v3.5a1.25 1.25 0 1 1-2.5 0z"/>
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="38" height="82" fill="currentColor" class="bi bi-fast-forward-circle-fill" viewBox="0 0 16 16">
+                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16M4.79 5.093 8 7.386V5.5a.5.5 0 0 1 .79-.407l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 8 10.5V8.614l-3.21 2.293A.5.5 0 0 1 4 10.5v-5a.5.5 0 0 1 .79-.407"/>
+              </svg>
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="29" height="82" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+              </svg>
+
+        </div>
+
+
+        <div class="volume">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="82" fill="currentColor" class="bi bi-volume-off" viewBox="0 0 16 16">
+                <path d="M10.717 3.55A.5.5 0 0 1 11 4v8a.5.5 0 0 1-.812.39L7.825 10.5H5.5A.5.5 0 0 1 5 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06M10 5.04 8.312 6.39A.5.5 0 0 1 8 6.5H6v3h2a.5.5 0 0 1 .312.11L10 10.96z"/>
+              </svg>
+
+
+        
+            <div class="blankdiv background-color:(ashcolor);
+            height: 5px;
+            width: 60%;
+            border-radius: 20px;" >
+            </div>
+            
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="82" fill="currentColor" class="bi bi-volume-up-fill" viewBox="0 0 16 16">
+                <path d="M11.536 14.01A8.47 8.47 0 0 0 14.026 8a8.47 8.47 0 0 0-2.49-6.01l-.708.707A7.48 7.48 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303z"/>
+                <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.48 5.48 0 0 1 11.025 8a5.48 5.48 0 0 1-1.61 3.89z"/>
+                <path d="M8.707 11.182A4.5 4.5 0 0 0 10.025 8a4.5 4.5 0 0 0-1.318-3.182L8 5.525A3.5 3.5 0 0 1 9.025 8 3.5 3.5 0 0 1 8 10.475zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06"/>
+              </svg>
+
+
+        </div>
+        
+
+        
+
+    </div>
+</body>
+</html>
